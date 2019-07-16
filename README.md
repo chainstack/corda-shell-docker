@@ -22,7 +22,7 @@ $ docker run -it chainstack/corda-shell-docker --host=corda-node.example.com --p
  / /     __  / ___/ __  / __ `/
 / /___  /_/ / /  / /_/ / /_/ /
 \____/     /_/   \__,_/\__,_/
---- Corda Open Source 4.0 (503a2ff) ---
+--- Corda Open Source 4.1 (c11f6c1) ---
 
 Standalone Shell connected to corda-node.example.com:10201
 
@@ -30,5 +30,5 @@ Standalone Shell connected to corda-node.example.com:10201
 Welcome to the Corda interactive shell.
 Useful commands include 'help' to see what is available, and 'bye' to shut down the node.
 
-Sun Jul 07 06:41:47 GMT 2019>>>
+Tue Jul 16 11:38:06 GMT 2019>>>
 ```
