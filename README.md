@@ -4,7 +4,7 @@ Ref: https://docs.corda.net/shell.html#starting-the-standalone-shell
 
 ## Version
 
-* Corda **4.0**
+* Corda **4.1**
 
 ## Usage
 
