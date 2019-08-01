@@ -9,13 +9,13 @@ Ref: https://docs.corda.net/shell.html#starting-the-standalone-shell
 ## Usage
 
 ``` sh
-docker run -it chainstack/corda-shell-docker --host=CORDA_RPC_HOSTNAME --port=CORDA_RPC_PORT --user=CORDA_RPC_USER --password=CORDA_RPC_PASSWORD
+docker run -it chainstack/corda-shell --host=CORDA_RPC_HOSTNAME --port=CORDA_RPC_PORT --user=CORDA_RPC_USER --password=CORDA_RPC_PASSWORD
 ```
 
 Example:
 
 ``` sh
-$ docker run -it chainstack/corda-shell-docker --host=corda-node.example.com --port=10201 --user=rpcuser --password=rpcpassword
+$ docker run -it chainstack/corda-shell --host=corda-node.example.com --port=10201 --user=rpcuser --password=rpcpassword
 
    ______               __
   / ____/     _________/ /___ _
