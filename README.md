@@ -8,14 +8,22 @@ Ref: https://docs.corda.net/shell.html#starting-the-standalone-shell
 
 ## Usage
 
+Without CorDapps:
+
 ``` sh
 docker run -it chainstack/corda-shell --host=CORDA_RPC_HOSTNAME --port=CORDA_RPC_PORT --user=CORDA_RPC_USER --password=CORDA_RPC_PASSWORD
+```
+
+With CorDapps:
+
+``` sh
+docker run -it -v /host/path/to/cordapps:/cordapps chainstack/corda-shell --host=CORDA_RPC_HOSTNAME --port=CORDA_RPC_PORT --user=CORDA_RPC_USER --password=CORDA_RPC_PASSWORD --cordapp-directory=/cordapps
 ```
 
 Example:
 
 ``` sh
-$ docker run -it chainstack/corda-shell --host=corda-node.example.com --port=10201 --user=rpcuser --password=rpcpassword
+$ docker run -it -v /home/user/cordapps:/cordapps chainstack/corda-shell --host=nd-123-456-789.p2pify.com --port=10201 --user=username --password=password --cordapp-directory=/cordapps
 
    ______               __
   / ____/     _________/ /___ _
@@ -24,11 +32,5 @@ $ docker run -it chainstack/corda-shell --host=corda-node.example.com --port=102
 \____/     /_/   \__,_/\__,_/
 --- Corda Open Source 4.1 (c11f6c1) ---
 
-Standalone Shell connected to corda-node.example.com:10201
-
-
-Welcome to the Corda interactive shell.
-Useful commands include 'help' to see what is available, and 'bye' to shut down the node.
-
-Tue Jul 16 11:38:06 GMT 2019>>>
+Standalone Shell connected to nd-123-456-789.p2pify.com:10201
 ```
