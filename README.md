@@ -30,7 +30,7 @@ $ docker run -it -v /home/user/cordapps:/cordapps chainstack/corda-shell --host=
  / /     __  / ___/ __  / __ `/
 / /___  /_/ / /  / /_/ / /_/ /
 \____/     /_/   \__,_/\__,_/
---- Corda Open Source 4.4 (d679784) ---
+--- Corda Open Source 4.4 (21e8c4f) ---
 
 Standalone Shell connected to nd-123-456-789.p2pify.com:10201
 ```
