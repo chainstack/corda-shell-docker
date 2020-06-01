@@ -4,7 +4,7 @@ Ref: https://docs.corda.net/shell.html#starting-the-standalone-shell
 
 ## Version
 
-* Corda **4.3**
+* Corda **4.4**
 
 ## Usage
 
@@ -30,7 +30,7 @@ $ docker run -it -v /home/user/cordapps:/cordapps chainstack/corda-shell --host=
  / /     __  / ___/ __  / __ `/
 / /___  /_/ / /  / /_/ / /_/ /
 \____/     /_/   \__,_/\__,_/
---- Corda Open Source 4.3 (d679784) ---
+--- Corda Open Source 4.4 (d679784) ---
 
 Standalone Shell connected to nd-123-456-789.p2pify.com:10201
 ```
